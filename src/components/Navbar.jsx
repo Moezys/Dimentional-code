@@ -6,14 +6,14 @@ const Navbar = () => {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-gray-900/20 backdrop-blur-sm">
+    <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-gray-600/20 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
           {/* Left side: Logo */}
           <a href="#home" className="flex items-center gap-2 group cursor-pointer">
-            <img src="/logo.png" alt="dimentional code" className="w-12 h-12 sm:w-16 sm:h-16" />
+            <img src="/logo.png" alt="dimensional code" className="w-12 h-12 sm:w-16 sm:h-16" />
             <span className="text-lg sm:text-xl md:text-2xl font-medium">
-              <span className="text-white">Dimentional </span>
+              <span className="text-white">Dimensional </span>
               <span className="text-gray-400">Code</span>
             </span>
           </a>
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
       </div>
       {mobileMenuIsOpen && (
-        <div className='md:hidden bg-gray-900/95 backdrop-blur-lg border-t border-gray-800 animate-in slide-in-from-top duration-300'>
+        <div className='md:hidden bg-gray-600/20 backdrop-blur-lg border-t border-gray-800 animate-in slide-in-from-top duration-300'>
           <div className='px-4 py-4 sm:py-6 space-y-3 sm:space-y-4'>
             <a href="#features" onClick={() => setMobileMenuIsOpen(false)} className="block text-gray-300 hover:text-white text-sm lg:text-base">Features</a>
             <a href="#Pricing" onClick={() => setMobileMenuIsOpen(false)} className="block text-gray-300 hover:text-white text-sm lg:text-base">Pricing</a>
