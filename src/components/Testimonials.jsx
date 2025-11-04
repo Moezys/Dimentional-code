@@ -23,7 +23,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-16 sm:px-6 lg:px-8 relative">
+    <section id="Testimonials" className="py-16 sm:px-6 lg:px-8 relative">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-8 sm:gap-12 lg:gap-16">
           {/* leftside header */}
