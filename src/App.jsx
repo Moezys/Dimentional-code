@@ -11,10 +11,10 @@ function App() {
     <div className="min-h-screen bg-black text-white overflow-hidden">
       <Navbar />
       <Hero />
-      {/* <Features /> */}
-      {/* <Pricing /> */}
-      {/* <Testimonials /> */}
-      {/* <Footer /> */}
+      <Features />
+      <Pricing />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }
